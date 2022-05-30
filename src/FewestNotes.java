@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//not completed yet
 public class FewestNotes {
 	public static short[] notes = {1,2,5,10,50,100,500,1000};
 	static short[] returnMoney = new short[8];
