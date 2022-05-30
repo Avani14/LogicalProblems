@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class StringEvalualtion {
+	public int a = 12;
+	static int b = 13;
 	public static void printMiddleCharater(String s)
 	{
 		
@@ -54,7 +56,9 @@ public class StringEvalualtion {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a String");
 		String num = sc.next();
-
+		System.out.println(b);
+		System.out.println(StringEvalualtion.a);
+		
 		printMiddleCharater(num);
 		countVowels(num);
 		countWords("The quick brown fox jumps over the lazy dog.");
